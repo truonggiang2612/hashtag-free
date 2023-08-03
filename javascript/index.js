@@ -30,27 +30,51 @@ var descriptionText = document.getElementById("description-text");
 
 // Button Tiktok
 var tiktokButton = document.getElementById("tiktok");
-tiktokButton.addEventListener("mouseover", function() {
+tiktokButton.addEventListener("mouseover", function () {
     descriptionText.textContent = "Hashtag TikTok - công cụ đơn giản nhưng phá cách, nâng cao vị thế của bạn trên nền tảng video hot nhất. Với hashtag tinh tế và linh hoạt, bạn sẽ chạm tới khán giả mục tiêu, thu hút sự quan tâm và tạo nên tương tác đầy ấn tượng. Hãy khám phá cách truyền đi thông điệp và mở ra cơ hội mới từ hashtag trên TikTok";
 });
-tiktokButton.addEventListener("mouseout", function() {
+tiktokButton.addEventListener("mouseout", function () {
     descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan.";
 });
 
 // Button Reels
 var reelsButton = document.getElementById("reels");
-reelsButton.addEventListener("mouseover", function() {
+reelsButton.addEventListener("mouseover", function () {
     descriptionText.textContent = "Hashtag Reels - tối ưu hóa sáng tạo của bạn trên nền tảng video ngắn phổ biến. Với hashtag chính xác, bạn sẽ kết nối và tương tác với triệu khán giả toàn cầu. Sử dụng hashtag Reels để phô diễn ý tưởng, chia sẻ đam mê và mở ra cơ hội từ thế giới video ngắn";
 });
-reelsButton.addEventListener("mouseout", function() {
+reelsButton.addEventListener("mouseout", function () {
     descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan.";
 });
 
 // Button Youtube
 var youtubeButton = document.getElementById("youtube");
-youtubeButton.addEventListener("mouseover", function() {
+youtubeButton.addEventListener("mouseover", function () {
     descriptionText.textContent = "Hashtag Youtube - tối ưu hóa nội dung video của bạn trong thế giới chia sẻ video. Sử dụng hashtag khéo léo giúp video tiếp cận khán giả mục tiêu và tạo tương tác, giao lưu trong cộng đồng. Khám phá sức mạnh của hashtag Youtube để biến nội dung của bạn thành cuộc trò chuyện mở với người xem trên toàn cầu";
 });
-youtubeButton.addEventListener("mouseout", function() {
+youtubeButton.addEventListener("mouseout", function () {
     descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan.";
 });
+
+
+// HANDLE BUTTON WHEN CLICK
+// Button Tiktok
+var tiktokButton = document.getElementById("tiktok");
+tiktokButton.addEventListener("click", function () {
+    // window.location.href = "tiktok.html";
+    console.log("click button Tiktok");
+});
+
+// Button Reels
+var reelsButton = document.getElementById("reels");
+reelsButton.addEventListener("click", function () {
+    // window.location.href = "reels.html";
+    console.log("click button Reels");
+});
+
+// Button Youtube
+var youtubeButton = document.getElementById("youtube");
+youtubeButton.addEventListener("click", function () {
+    // window.location.href = "youtube.html";
+    console.log("click button Youtube");
+});
+
