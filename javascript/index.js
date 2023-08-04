@@ -60,7 +60,7 @@ youtubeButton.addEventListener("mouseout", function () {
 // Button Tiktok
 var tiktokButton = document.getElementById("tiktok");
 tiktokButton.addEventListener("click", function () {
-    // window.location.href = "tiktok.html";
+    window.location.href = "tiktok.html";
     console.log("click button Tiktok");
 });
 
