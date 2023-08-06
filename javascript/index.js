@@ -61,20 +61,17 @@ youtubeButton.addEventListener("mouseout", function () {
 var tiktokButton = document.getElementById("tiktok");
 tiktokButton.addEventListener("click", function () {
     window.location.href = "tiktok.html";
-    console.log("click button Tiktok");
 });
 
 // Button Reels
 var reelsButton = document.getElementById("reels");
 reelsButton.addEventListener("click", function () {
-    // window.location.href = "reels.html";
-    console.log("click button Reels");
+    window.location.href = "reels.html";
 });
 
 // Button Youtube
 var youtubeButton = document.getElementById("youtube");
 youtubeButton.addEventListener("click", function () {
-    // window.location.href = "youtube.html";
-    console.log("click button Youtube");
+    window.location.href = "youtube.html";
 });
 

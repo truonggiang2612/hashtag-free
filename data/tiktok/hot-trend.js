@@ -1,25 +1,24 @@
-const hotTrendData = 
-[
-    { "id": "1", "name": "HoaHauYNhi" },
-    { "id": "2", "name": "GaiBikiniVietNam" },
-    { "id": "3", "name": "VinhHalongDance" },
-    { "id": "4", "name": "SukienNoiBat" },
-    { "id": "5", "name": "TinNong" },
-    { "id": "6", "name": "CongDongMang" },
-    { "id": "7", "name": "XuHuongThoiTrang" },
-    { "id": "8", "name": "PhatNgonSot" },
-    { "id": "9", "name": "VietNamXinhDep" },
-    { "id": "10", "name": "BienDepVietNam" },
-    { "id": "11", "name": "SaoVietNam" },
-    { "id": "12", "name": "GiaiTri" },
-    { "id": "13", "name": "HotNews" },
-    { "id": "14", "name": "GioiTreVietNam" },
-    { "id": "15", "name": "NoiBatXaHoi" },
-    { "id": "16", "name": "HauTruong" },
-    { "id": "17", "name": "TrendMoi" },
-    { "id": "18", "name": "SuKienAmNhac" },
-    { "id": "19", "name": "DoiSongXanh" },
-    { "id": "20", "name": "ChinhTriVietNam" }
+const hotTrendData = [
+    { "id": "1", "name": "hoahuaynhi" },
+    { "id": "2", "name": "gaibikinivietnam" },
+    { "id": "3", "name": "vinhhalongdance" },
+    { "id": "4", "name": "sukiennoibat" },
+    { "id": "5", "name": "tinnong" },
+    { "id": "6", "name": "congdongmang" },
+    { "id": "7", "name": "xuhuongthoitrang" },
+    { "id": "8", "name": "phatngonsot" },
+    { "id": "9", "name": "vietnamxinhdep" },
+    { "id": "10", "name": "biendepvietnam" },
+    { "id": "11", "name": "saovietnam" },
+    { "id": "12", "name": "giaitri" },
+    { "id": "13", "name": "hotnews" },
+    { "id": "14", "name": "gioitrevietnam" },
+    { "id": "15", "name": "noibatxahoi" },
+    { "id": "16", "name": "hautruong" },
+    { "id": "17", "name": "trendmoi" },
+    { "id": "18", "name": "sukienamnhac" },
+    { "id": "19", "name": "doisongxanh" },
+    { "id": "20", "name": "chinhtrivietnam" }
 ];
 
 export default hotTrendData;
