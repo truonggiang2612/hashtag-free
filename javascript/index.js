@@ -1,3 +1,13 @@
+const titleElement = document.querySelector('.title');
+
+function toggleBlink() {
+    titleElement.classList.toggle('blinking');
+}
+
+setInterval(toggleBlink, 600);
+
+
+
 const buttons = document.querySelectorAll('.hashtag-button');
 
 buttons.forEach(button => {
@@ -34,7 +44,7 @@ tiktokButton.addEventListener("mouseover", function () {
     descriptionText.textContent = "Hashtag TikTok - công cụ đơn giản nhưng phá cách, nâng cao vị thế của bạn trên nền tảng video hot nhất. Với hashtag tinh tế và linh hoạt, bạn sẽ chạm tới khán giả mục tiêu, thu hút sự quan tâm và tạo nên tương tác đầy ấn tượng. Hãy khám phá cách truyền đi thông điệp và mở ra cơ hội mới từ hashtag trên TikTok";
 });
 tiktokButton.addEventListener("mouseout", function () {
-    descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan.";
+    descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan";
 });
 
 // Button Reels
@@ -43,7 +53,7 @@ reelsButton.addEventListener("mouseover", function () {
     descriptionText.textContent = "Hashtag Reels - tối ưu hóa sáng tạo của bạn trên nền tảng video ngắn phổ biến. Với hashtag chính xác, bạn sẽ kết nối và tương tác với triệu khán giả toàn cầu. Sử dụng hashtag Reels để phô diễn ý tưởng, chia sẻ đam mê và mở ra cơ hội từ thế giới video ngắn";
 });
 reelsButton.addEventListener("mouseout", function () {
-    descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan.";
+    descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan";
 });
 
 // Button Youtube
@@ -52,7 +62,7 @@ youtubeButton.addEventListener("mouseover", function () {
     descriptionText.textContent = "Hashtag Youtube - tối ưu hóa nội dung video của bạn trong thế giới chia sẻ video. Sử dụng hashtag khéo léo giúp video tiếp cận khán giả mục tiêu và tạo tương tác, giao lưu trong cộng đồng. Khám phá sức mạnh của hashtag Youtube để biến nội dung của bạn thành cuộc trò chuyện mở với người xem trên toàn cầu";
 });
 youtubeButton.addEventListener("mouseout", function () {
-    descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan.";
+    descriptionText.textContent = "Vui lòng chọn một lĩnh vực để xem lợi ích và nội dung liên quan";
 });
 
 
