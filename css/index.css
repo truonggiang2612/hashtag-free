@@ -157,3 +157,97 @@ body {
 
 
 
+/*RESPONSIBVE*/
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .title-header {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin: 0 20px;
+    }
+
+
+    .container-content {
+        margin-top: 80px;
+    }
+
+    .hashtag-button {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .only-btn-tiktok {
+        margin-top: 6px;
+    }
+    .btn-tiktok {
+        margin-top: 3px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin: 30px 30px 0;
+        text-align: center;
+    }
+
+    .text-run {
+        font-size: 16px;
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .title-header {
+        font-size: 60px;
+        margin-top: 70px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .container-content {
+        margin-top: 100px;
+    }
+
+    .hashtag-button {
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .btn-tiktok {
+        margin-top: 3px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .description {
+        font-size: 20px;
+        margin: 40px 30px 0;
+        text-align: center;
+    }
+
+    .text-run {
+        font-size: 18px;
+    }
+}
+
+
+
