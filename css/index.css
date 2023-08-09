@@ -259,5 +259,24 @@ body {
     }
 }
 
-
+/* Desktop Screen */
+@media only screen and (min-width: 1201px) {
+    /* Styles for desktop here */
+  }
+  
+  /* Landscape Tablet */
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Styles for landscape tablet here */
+  }
+  
+  /* Portrait Tablet */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for portrait tablet here */
+  }
+  
+  /* Mobile Screen */
+  @media only screen and (max-width: 600px) {
+    /* Styles for mobile screen here */
+  }
+  
 
