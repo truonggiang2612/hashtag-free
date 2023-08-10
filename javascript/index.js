@@ -85,3 +85,44 @@ youtubeButton.addEventListener("click", function () {
     window.location.href = "youtube.html";
 });
 
+
+// AUTO HOVER ON MOBILE
+if (window.innerWidth <= 600) {
+    var descriptionText = document.getElementById("description-text");
+    var allButton = document.querySelectorAll('.hashtag-button');
+    var logo = document.querySelectorAll('.logo');
+
+    var currentIndex = 0;
+    var interval = setInterval(function () {
+        // Hiển thị đoạn text tương ứng và scale logo
+        descriptionText.textContent = getDescriptionText(currentIndex);
+        scaleLogo(logo[currentIndex]);
+
+        currentIndex = (currentIndex + 1) % allButton.length;
+    }, 5000)
+
+
+    // fuction getText
+    function getDescriptionText(index) {
+        switch (index) {
+            case 0:
+                return "Hashtag TikTok - công cụ đơn giản nhưng phá cách, nâng cao vị thế trên nền tảng video phổ biến. Sử dụng hashtag tinh tế và linh hoạt để tiếp cận khán giả mục tiêu và tạo tương tác ấn tượng.";
+            case 1:
+                return "Hashtag Reels - tối ưu hóa sáng tạo trên video ngắn. Kết nối và tương tác toàn cầu bằng hashtag chính xác. Sử dụng Reels để phô diễn ý tưởng, chia sẻ đam mê và mở ra cơ hội từ thế giới video ngắn.";
+            case 2:
+                return "Hashtag Youtube - tối ưu hóa nội dung video, kết nối và tương tác với khán giả mục tiêu. Khám phá sức mạnh của hashtag để biến nội dung thành cuộc trò chuyện toàn cầu.";
+            default:
+                return "";
+        }
+    }
+
+    // function scale logo
+    function scaleLogo(logo) {
+        logo.style.transform = "scale(1.5)";
+        setTimeout(() => {
+            logo.style.transform = "scale(1)"
+        }, 5000);
+    }
+}
+
+
