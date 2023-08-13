@@ -65,6 +65,35 @@ document.addEventListener('DOMContentLoaded', function () {
             contentContainer.appendChild(name);
         });
 
+        const copyButton = document.createElement('button');
+        copyButton.textContent = 'Copy All';
+        copyButton.classList.add('btn_copy');
+        copyButton.addEventListener('click', () => {
+
+            // loại bỏ nút All copy ra khỏi bản sao của nó, k copy tên nút này
+            const allContent = contentContainer.cloneNode(true);
+            const copyButtonElements = allContent.querySelectorAll('.btn_copy');
+
+            copyButtonElements.forEach(button => {
+                button.remove();
+            });
+
+            copyToClipboard(allContent.textContent);
+            copyButton.textContent = "Copied";
+            copyButton.disabled = true;
+            copyButton.classList.add('btn_copy_disabled');
+        });
+
+        contentContainer.appendChild(copyButton);
         contentContainer.style.visibility = 'visible';
+    }
+
+    function copyToClipboard(text) {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
     }
 });

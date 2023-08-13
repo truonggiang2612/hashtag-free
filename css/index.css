@@ -335,7 +335,7 @@ body {
 
     .description {
         font-size: 14px;
-        margin: 30px 50px 0;
+        margin: 30px 70px 0;
         text-align: left;
         line-height: 1.4;
     }
@@ -350,7 +350,7 @@ body {
 
     body {
         background-position: center;
-        width: 692px;
+        width: 100%;
     }
 
     .title-header {
@@ -386,32 +386,11 @@ body {
     .description {
         font-size: 20px;
         margin: 40px 30px 0;
-        text-align: center;
+        text-align: left;
     }
 
     .text-run {
         font-size: 18px;
     }
 }
-
-/* Desktop Screen */
-@media only screen and (min-width: 1201px) {
-    /* Styles for desktop here */
-  }
-  
-  /* Landscape Tablet */
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    /* Styles for landscape tablet here */
-  }
-  
-  /* Portrait Tablet */
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Styles for portrait tablet here */
-  }
-  
-  /* Mobile Screen */
-  @media only screen and (max-width: 600px) {
-    /* Styles for mobile screen here */
-  }
-  
 

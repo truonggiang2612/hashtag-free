@@ -87,7 +87,7 @@ youtubeButton.addEventListener("click", function () {
 
 
 // AUTO HOVER ON MOBILE
-if (window.innerWidth <= 600) {
+if (window.innerWidth <= 820) {
     var descriptionText = document.getElementById("description-text");
     var allButton = document.querySelectorAll('.hashtag-button');
     var logo = document.querySelectorAll('.logo');

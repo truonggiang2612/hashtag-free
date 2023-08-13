@@ -50,6 +50,7 @@ body {
 
 
 .content {
+    position: relative;
     margin-top: 30px;
     width: 800px;
     background-color: #ccc;
@@ -64,4 +65,94 @@ body {
     flex-wrap: wrap;
     line-height: 1.6;
     visibility: hidden;
+}
+.btn_copy {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_copy_disabled {
+    background-color: #000;
+    cursor: none;
+}
+
+
+/*RESPONSIBVE*/
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        overflow: hidden;
+        
+    }
+    
+    /*HEADER*/
+    .title-header {
+        color: #fff;
+        font-family: "Brush Script MT", cursive;
+        font-size: 34px;
+        margin-top: 60px;
+    }
+    
+    /*CONTENT*/
+    .topic-buttons {
+        margin-top: 40px;
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .group button {
+        margin: 6px 8px;
+    }
+
+    .group {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .topic-buttons button {
+        padding: 6px;
+    }
+
+    .group_1 button {
+        width: 167px;
+    }
+
+    .group_3 button {
+        position: relative;
+        margin-right: 204px;
+        width: 167px;
+    }
+    .group_4 button {
+        width: 168px;
+        position: relative;
+        top: -210px;
+        left: 97px;
+    }
+       
+    .content {
+        position: relative;
+        top: -230px;
+        width: 390px;
+        height: auto;
+    }
+}
+
+
+
+/* For tablets */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
 }
