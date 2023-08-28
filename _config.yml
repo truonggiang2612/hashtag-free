@@ -1,0 +1,20 @@
+defaults:
+  - scope:
+      path: ""
+      type: tiktok
+    values:
+      permalink: /tiktok
+
+  - scope:
+      path: ""
+      type: reels
+    values:
+      permalink: /reels
+
+  - scope:
+      path: ""
+      type: youtube
+    values:
+      permalink: /youtube
+
+permalink: /:title
