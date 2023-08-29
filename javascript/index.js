@@ -70,19 +70,19 @@ youtubeButton.addEventListener("mouseout", function () {
 // Button Tiktok
 var tiktokButton = document.getElementById("tiktok");
 tiktokButton.addEventListener("click", function () {
-    window.location.href = "tiktok.html";
+    window.location.href = "tiktok/";
 });
 
 // Button Reels
 var reelsButton = document.getElementById("reels");
 reelsButton.addEventListener("click", function () {
-    window.location.href = "reels.html";
+    window.location.href = "reels/";
 });
 
 // Button Youtube
 var youtubeButton = document.getElementById("youtube");
 youtubeButton.addEventListener("click", function () {
-    window.location.href = "youtube.html";
+    window.location.href = "youtube/";
 });
 
 
